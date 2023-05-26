@@ -13,23 +13,23 @@ function App() {
         <div className="flex-column justify-center align-center min-100-vh bg-primary">
           <Routes>
             <Route 
-              path="/" 
+              path="/React-Portfolio" 
               element={<AboutMe />}
             />
             <Route 
-              path="/AboutMe" 
+              path="/React-Portfolio/AboutMe" 
               element={<AboutMe />}
             />
             <Route 
-              path="/Portfolio" 
+              path="/React-Portfolio/Portfolio" 
               element={<Portfolio />}
             />
             <Route 
-              path="/Contact"
+              path="/React-Portfolio/Contact"
               element={<Contact />}
             />
             <Route 
-              path="/Resume"
+              path="/React-Portfolio/Resume"
               element={<Resume />}
             />
           </Routes>
