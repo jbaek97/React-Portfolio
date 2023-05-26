@@ -1,3 +1,139 @@
+.noList {
+  list-style-type: none;
+  margin-right: 4vh;
+}
+
+.noList li {
+  display: inline;
+  margin: 0 10px;
+
+}
+
+.noList li svg {
+  height: 5vh;
+  width: 10vw;
+}
+
+.Portfolio {
+  background-color: gray;
+}
+
+.ProjectCard {
+  margin: 2vh;
+  box-shadow: 10px 10px 10px;
+}
+
+.ProjectCard img {
+  height: 40vh
+}
+.AboutMe {
+  background-color: gray;
+}
+.AboutMeText {
+  text-align: center;
+  font-size: 25px;
+  height: 30vh;
+  overflow: scroll
+}
+
+.scroll{
+  overflow: scroll;
+  height: 50vh;
+}
+
+.vh {
+  height: 100vh;
+}
+
+.resumeContainer{
+  height: 10vh;
+  width: 70vw;
+  margin: 10vh auto;
+  text-align: center;
+}
+
+.resumeLabel{
+  font-size: 50px;
+  line-height: 20vh;
+}
+
+.AboutMeCard {
+  max-width: 50vw;
+  margin: 6vh auto;
+  border-radius: 25px;
+}
+
+
+.resume {
+  max-width: 50vw;
+  margin: 20vh auto;
+  height: 30vh;
+}
+
+.ResumeBackground {
+  background-color: gray;
+}
+
+.AboutMeImage {
+  padding: 5vh auto;
+  border: 20px solid darkgray;
+  width: 100%;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.form {
+  background-color: gray;
+  height:70vh;
+  width: 50vw;
+  margin: 5vh auto;
+}
+
+.formText {
+  height: 25vh;
+}
+
+.inputText {
+  height: 5vh;
+}
+
+.contactTitle {
+  font-size: 25px;
+  text-align: center;
+}
+
+.formButton {
+  background-color: gray;
+  color: gray;
+  margin: 0 auto;
+  width: 50vw;
+  height: 5vh;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.ProjectsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.center{
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+.footer {
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
