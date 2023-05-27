@@ -13,7 +13,7 @@ function App() {
         <div className="flex-column justify-center align-center min-100-vh bg-primary">
           <Routes>
             <Route 
-              path="/React-Portfolio" 
+              path="/React-Portfolio/" 
               element={<AboutMe />}
             />
             <Route 

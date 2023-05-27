@@ -7,12 +7,12 @@ function Navigation() {
   return (
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/React-Portfolio">Joseph Baek</Navbar.Brand>
+          <Navbar.Brand href="AboutMe">Joseph Baek</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/React-Portfolio/AboutMe">About Me</Nav.Link>
-            <Nav.Link href="/React-Portfolio/Portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="/React-Portfolio/Contact">Contact</Nav.Link>
-            <Nav.Link href="/React-Portfolio/Resume">Resume</Nav.Link>
+            <Nav.Link href="AboutMe">About Me</Nav.Link>
+            <Nav.Link href="Portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="Contact">Contact</Nav.Link>
+            <Nav.Link href="Resume">Resume</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
